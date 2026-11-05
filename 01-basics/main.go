@@ -17,7 +17,7 @@ func main(){
 
 	fmt.Printf("%d, %.2f, %s, %t\n",i,f,s,b)
 
-	fmt.Printf("%d, %.2done f, %s, %t\n",ii,ff,ss,bb)
+	fmt.Printf("%d, %.2f, %s, %t\n",ii,ff,ss,bb)
 
 	
 	

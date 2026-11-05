@@ -6,7 +6,7 @@ type Rectangle struct {
 	Width, Height float32
 }
 
-func (r Rectangle) Area () float32 {
+func (r *Rectangle) Area () float32 {
 	return r.Height * r.Width
 }
 
@@ -14,6 +14,8 @@ func (r *Rectangle) Scale (factor float32) {
 	r.Width = r.Width * factor
 	r.Height = r.Height * factor
 }
+
+
 
 func main (){
 	r := Rectangle{3,2}
